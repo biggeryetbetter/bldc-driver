@@ -1453,12 +1453,6 @@
 		(uuid "07d5afc9-0f30-4dc4-9431-4e47fcac8f4f")
 	)
 	(junction
-		(at 175.26 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f3f0e15-3326-4a10-88d1-e61e3f2046cd")
-	)
-	(junction
 		(at 50.8 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1513,6 +1507,12 @@
 		(uuid "48d8d394-1cde-4821-8f74-f21cc93cb1a4")
 	)
 	(junction
+		(at 175.26 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57d69a72-595d-47ef-9093-40e45b3a899c")
+	)
+	(junction
 		(at 139.7 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1541,6 +1541,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8860c996-c652-4d7f-b4c1-7d24bc58425f")
+	)
+	(junction
+		(at 167.64 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ff50502-b43a-4edc-a863-69233e4cfe74")
 	)
 	(junction
 		(at 50.8 69.85)
@@ -1595,12 +1601,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c653e0a4-f4c1-41cd-823f-0d75ac60f0fd")
-	)
-	(junction
-		(at 167.64 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3aae342-8779-4b25-be30-36649684cd98")
 	)
 	(junction
 		(at 40.64 88.9)
@@ -1736,6 +1736,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 69.85) (xy 184.15 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26253f87-14e4-4130-afcc-019444f539fc")
+	)
+	(wire
+		(pts
 			(xy 63.5 64.77) (xy 63.5 69.85)
 		)
 		(stroke
@@ -1766,7 +1776,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 161.29 83.82)
+			(xy 181.61 81.28) (xy 181.61 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1826,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 81.28) (xy 179.07 81.28)
+			(xy 161.29 81.28) (xy 163.83 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1946,7 +1956,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 81.28) (xy 250.19 81.28)
+			(xy 267.97 81.28) (xy 270.51 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2036,7 +2046,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 81.28) (xy 270.51 83.82)
+			(xy 250.19 81.28) (xy 250.19 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2046,7 +2056,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 76.2) (xy 168.91 76.2)
+			(xy 175.26 76.2) (xy 173.99 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2146,7 +2156,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 69.85) (xy 167.64 76.2)
+			(xy 175.26 69.85) (xy 175.26 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2306,7 +2316,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 81.28) (xy 72.39 81.28)
+			(xy 90.17 81.28) (xy 92.71 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2316,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 81.28) (xy 72.39 83.82)
+			(xy 92.71 81.28) (xy 92.71 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2336,7 +2346,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 81.28) (xy 90.17 81.28)
+			(xy 72.39 81.28) (xy 74.93 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2356,7 +2366,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 81.28) (xy 267.97 81.28)
+			(xy 250.19 81.28) (xy 252.73 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2366,7 +2376,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 81.28) (xy 250.19 83.82)
+			(xy 270.51 81.28) (xy 270.51 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2466,16 +2476,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 69.85) (xy 184.15 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3ca0e01-940f-41fa-acd1-5122e9e8dadf")
-	)
-	(wire
-		(pts
 			(xy 127 149.86) (xy 132.08 149.86)
 		)
 		(stroke
@@ -2536,7 +2536,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 81.28) (xy 92.71 83.82)
+			(xy 72.39 81.28) (xy 72.39 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +2556,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 69.85) (xy 175.26 76.2)
+			(xy 167.64 69.85) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2566,7 +2566,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 81.28) (xy 181.61 83.82)
+			(xy 161.29 81.28) (xy 161.29 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2576,7 +2576,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 76.2) (xy 173.99 76.2)
+			(xy 167.64 76.2) (xy 168.91 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2646,7 +2646,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 161.29 81.28)
+			(xy 179.07 81.28) (xy 181.61 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3035,6 +3035,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 171.45 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08552073-bb94-430c-9289-7efd1180fd20")
+		(property "Reference" "C11"
+			(at 171.45 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 171.45 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 113.3348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b3b058-7f3a-4f53-a862-94d1e362917c")
+		)
+		(pin "2"
+			(uuid "af1fd4a4-5f0a-4397-b1f0-937056c94d5b")
+		)
+		(instances
+			(project "bldc_motor_controller_1"
+				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 137.16 90)
 		(unit 1)
@@ -3325,7 +3393,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Current:INA180B3")
-		(at 82.55 83.82 270)
+		(at 82.55 83.82 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3334,7 +3403,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b13f8e2-6023-4946-a167-9b5f9c72bdfd")
 		(property "Reference" "U3"
-			(at 93.98 74.8598 90)
+			(at 71.12 74.8598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +3411,7 @@
 			)
 		)
 		(property "Value" "INA180B3"
-			(at 93.98 77.3998 90)
+			(at 71.12 77.3998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +3419,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 83.82 85.09 0)
+			(at 81.28 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +3428,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 86.36 87.63 0)
+			(at 78.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,6 +3624,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 78.74 114.3 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "363cc606-3bf8-4042-bcda-5e343e7e41ac")
+		(property "Reference" "#PWR016"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 74.93 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92078615-e891-457d-b8e0-f0dc24b5936b")
+		)
+		(instances
+			(project "bldc_motor_controller_1"
+				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 34.29 88.9 90)
 		(unit 1)
@@ -3624,7 +3761,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 83.82 0)
+		(at 181.61 83.82 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3633,7 +3771,7 @@
 		(fields_autoplaced yes)
 		(uuid "47564c2d-a4e5-470f-8a9f-b50581ced6f2")
 		(property "Reference" "#PWR021"
-			(at 161.29 90.17 0)
+			(at 181.61 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +3780,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 88.9 0)
+			(at 181.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,7 +3788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 83.82 0)
+			(at 181.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +3797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 83.82 0)
+			(at 181.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +3806,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 83.82 0)
+			(at 181.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +3894,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 83.82 0)
+		(at 270.51 83.82 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3765,7 +3904,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bd22069-12db-4d3c-a084-ccec75bf8212")
 		(property "Reference" "#PWR023"
-			(at 250.19 90.17 0)
+			(at 270.51 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +3913,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 88.9 0)
+			(at 270.51 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +3921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 83.82 0)
+			(at 270.51 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +3930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 83.82 0)
+			(at 270.51 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +3939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 83.82 0)
+			(at 270.51 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,7 +4095,8 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 181.61 83.82 180)
+		(at 161.29 83.82 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3965,7 +4105,7 @@
 		(fields_autoplaced yes)
 		(uuid "562bd7a6-a45c-42c2-8ddc-42e18bea9751")
 		(property "Reference" "#PWR022"
-			(at 181.61 80.01 0)
+			(at 161.29 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +4114,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 181.61 88.9 0)
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +4122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 83.82 0)
+			(at 161.29 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +4131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 83.82 0)
+			(at 161.29 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4140,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 181.61 83.82 0)
+			(at 161.29 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,6 +4155,74 @@
 			(project "bldc_motor_controller_1"
 				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 256.54 114.3 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "586e5a7b-e189-41cd-9c2a-0632567a4bca")
+		(property "Reference" "#PWR027"
+			(at 260.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 252.73 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 256.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a282acf5-9779-4712-b0a8-c303af6ba5ea")
+		)
+		(instances
+			(project "bldc_motor_controller_1"
+				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4085,6 +4293,74 @@
 			(project "bldc_motor_controller_1"
 				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 167.64 114.3 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e50b188-996d-4418-97a7-acb9d3c4d732")
+		(property "Reference" "#PWR018"
+			(at 171.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 163.83 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fe2af55-ec1d-4be1-b545-606ddf180531")
+		)
+		(instances
+			(project "bldc_motor_controller_1"
+				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4299,6 +4575,73 @@
 			(project "bldc_motor_controller_1"
 				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
 					(reference "B_H")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72d9c69a-2c69-4275-afa5-fd7f7ee34f0f")
+		(property "Reference" "#PWR025"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35871315-6f9a-4fc7-ab5e-5cc053498613")
+		)
+		(instances
+			(project "bldc_motor_controller_1"
+				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4608,6 +4951,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 264.16 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "995f1243-0d46-496f-b676-ffe2da9f3f54")
+		(property "Reference" "#PWR028"
+			(at 270.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc5c610d-e924-445d-9d6b-d17180c0b810")
+		)
+		(instances
+			(project "bldc_motor_controller_1"
+				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d6d7b1c-dde4-4ffe-8035-710f66217492")
+		(property "Reference" "#PWR017"
+			(at 92.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c716ed7e-c2ab-43d3-a46d-e83b507168a7")
+		)
+		(instances
+			(project "bldc_motor_controller_1"
+				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 34.29 55.88 90)
 		(unit 1)
@@ -4677,7 +5154,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 83.82 0)
+		(at 92.71 83.82 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4686,7 +5164,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8b04caa-810b-476b-b5a2-1cd239be98b1")
 		(property "Reference" "#PWR020"
-			(at 72.39 90.17 0)
+			(at 92.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +5173,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 88.9 0)
+			(at 92.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,7 +5181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 83.82 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4712,7 +5190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 83.82 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,7 +5199,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 83.82 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +5221,8 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 270.51 83.82 180)
+		(at 250.19 83.82 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4752,7 +5231,7 @@
 		(fields_autoplaced yes)
 		(uuid "a96ceef6-bc67-49cf-8382-523983e7ea7d")
 		(property "Reference" "#PWR024"
-			(at 270.51 80.01 0)
+			(at 250.19 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +5240,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 270.51 88.9 0)
+			(at 250.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +5248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 83.82 0)
+			(at 250.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +5257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 83.82 0)
+			(at 250.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +5266,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 270.51 83.82 0)
+			(at 250.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,6 +5281,74 @@
 			(project "bldc_motor_controller_1"
 				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 82.55 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab19e68e-79fe-40cf-9f6c-2225f7e2b999")
+		(property "Reference" "C8"
+			(at 82.55 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.55 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 113.3348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57686fc3-37e3-4ce8-be01-cb0412d52472")
+		)
+		(pin "2"
+			(uuid "8b957801-8d02-471a-93a4-fa554dbb7e14")
+		)
+		(instances
+			(project "bldc_motor_controller_1"
+				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4881,6 +5428,74 @@
 			(project "bldc_motor_controller_1"
 				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
 					(reference "B_L")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 260.35 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1cc6fc7-d515-4c91-be77-43e4edcf3357")
+		(property "Reference" "C12"
+			(at 260.35 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 260.35 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 113.3348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 260.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "641328b5-0999-49ed-b91c-33da16f41c91")
+		)
+		(pin "2"
+			(uuid "8e6c4607-dc0d-4ba4-aaba-85b61783b864")
+		)
+		(instances
+			(project "bldc_motor_controller_1"
+				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/84edeab3-aec5-4502-9dc6-d74525a627ff"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5130,7 +5745,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Current:INA180B3")
-		(at 171.45 83.82 270)
+		(at 171.45 83.82 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5139,7 +5755,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf6a11e2-08fb-4329-afdd-d8e83c1a3d61")
 		(property "Reference" "U4"
-			(at 182.88 74.8598 90)
+			(at 160.02 74.8598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +5763,7 @@
 			)
 		)
 		(property "Value" "INA180B3"
-			(at 182.88 77.3998 90)
+			(at 160.02 77.3998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5771,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 172.72 85.09 0)
+			(at 170.18 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5164,7 +5780,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 175.26 87.63 0)
+			(at 167.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,7 +6255,8 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 92.71 83.82 180)
+		(at 72.39 83.82 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5648,7 +6265,7 @@
 		(fields_autoplaced yes)
 		(uuid "de71f813-9de0-4ede-9e1f-e108500ed07a")
 		(property "Reference" "#PWR019"
-			(at 92.71 80.01 0)
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +6274,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 92.71 88.9 0)
+			(at 72.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5665,7 +6282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 83.82 0)
+			(at 72.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +6291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 83.82 0)
+			(at 72.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +6300,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 83.82 0)
+			(at 72.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6663,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Current:INA180B3")
-		(at 260.35 83.82 270)
+		(at 260.35 83.82 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6055,7 +6673,7 @@
 		(fields_autoplaced yes)
 		(uuid "ede56a82-2505-4e55-baf2-5827c2f3ed9b")
 		(property "Reference" "U5"
-			(at 271.78 74.8598 90)
+			(at 248.92 74.8598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +6681,7 @@
 			)
 		)
 		(property "Value" "INA180B3"
-			(at 271.78 77.3998 90)
+			(at 248.92 77.3998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +6689,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 261.62 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6698,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 264.16 87.63 0)
+			(at 256.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
