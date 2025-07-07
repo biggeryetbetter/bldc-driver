@@ -1,0 +1,63 @@
+{
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 1u 240u 200u",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "legend": {
+        "x": 0,
+        "y": 0
+      },
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 140,
+        "top": 70
+      },
+      "measurements": [
+        {
+          "expr": "PP I(L2)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(L2)",
+          "format": "3~A"
+        }
+      ],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "I(L2)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(phase_a,phase_b)",
+          "trace_type": 257
+        }
+      ]
+    },
+    {
+      "analysis": "OP",
+      "commands": [
+        ".op",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ]
+    }
+  ],
+  "user_defined_signals": [
+    "V(phase_a,phase_b)"
+  ],
+  "version": 6
+}

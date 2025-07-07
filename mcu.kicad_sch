@@ -1,0 +1,355 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9a855b56-6274-451c-b78c-645ff8cf0ad3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 91.44 118.11)
+		(uuid "0fa91965-7a45-4234-8dbf-a6e2d90ef707")
+	)
+	(no_connect
+		(at 106.68 100.33)
+		(uuid "38ac90b8-7010-4c4a-b41d-479abc584d52")
+	)
+	(no_connect
+		(at 106.68 105.41)
+		(uuid "455b0a49-7f73-437a-8734-a4840dc412e1")
+	)
+	(no_connect
+		(at 87.63 118.11)
+		(uuid "58c97ec2-e3a4-4671-93ee-efa9bd00d4c4")
+	)
+	(no_connect
+		(at 95.25 118.11)
+		(uuid "7c93e73a-35d9-4b92-b7c2-0e8d7c1556fb")
+	)
+	(no_connect
+		(at 106.68 92.71)
+		(uuid "84e997a1-6439-4df3-8026-66ad158b1026")
+	)
+	(no_connect
+		(at 106.68 102.87)
+		(uuid "aa5b0861-a891-4d07-be16-54cc4c4ccdba")
+	)
+	(no_connect
+		(at 106.68 111.76)
+		(uuid "ad006924-2016-4ea4-86f3-c38174e547be")
+	)
+	(no_connect
+		(at 106.68 97.79)
+		(uuid "b1d221ff-4889-496a-8b4f-effda714b1fb")
+	)
+	(no_connect
+		(at 106.68 95.25)
+		(uuid "d4e757eb-47cb-4d8e-8aa1-3cb7e1f166d1")
+	)
+	(no_connect
+		(at 86.36 92.71)
+		(uuid "fd829c3b-1dc6-49ad-9b06-b9e9f3f9446f")
+	)
+	(hierarchical_label "INHC"
+		(shape output)
+		(at 106.68 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0922ea40-3260-4ff0-aafa-b2b952d35208")
+	)
+	(hierarchical_label "INLA"
+		(shape output)
+		(at 106.68 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d20b22e-3f74-4c17-9757-9371a726493c")
+	)
+	(hierarchical_label "INLB"
+		(shape output)
+		(at 106.68 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14f480a7-e7b0-4c28-ab54-ff79e66208bc")
+	)
+	(hierarchical_label "INHB"
+		(shape output)
+		(at 106.68 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21ae37a0-c1bb-4107-89ff-a559e38c8a52")
+	)
+	(hierarchical_label "INHA"
+		(shape output)
+		(at 106.68 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ac8c6d9-cfc5-4909-9545-77cdea91ed19")
+	)
+	(hierarchical_label "SENSE_A"
+		(shape input)
+		(at 87.63 118.11 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b051d6e-05eb-4ff8-bfec-b14f04fceef0")
+	)
+	(hierarchical_label "3.3v_PIN"
+		(shape output)
+		(at 106.68 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a41bbada-2dcf-4d94-8dab-f547c789f38c")
+	)
+	(hierarchical_label "SENSE_B"
+		(shape input)
+		(at 91.44 118.11 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cad48125-80f3-42ad-92ad-d454a1901164")
+	)
+	(hierarchical_label "SENSE_C"
+		(shape input)
+		(at 95.25 118.11 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd201faa-fe74-4e28-8358-d53ad1c5f8ff")
+	)
+	(hierarchical_label "INLC"
+		(shape output)
+		(at 106.68 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dddbfb65-9396-442a-809a-a3dafa343e54")
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 86.36 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab29c249-573e-4bba-a638-c1e7a93a6527")
+		(property "Reference" "#PWR015"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 82.55 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 86.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7db125c7-cfff-4ae9-9676-e8c529601917")
+		)
+		(instances
+			(project ""
+				(path "/b08139d9-3ed4-432d-bd3b-abd5fed319b1/58f084b6-71e7-4c7c-8521-1f50c5920b58"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
